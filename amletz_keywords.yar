@@ -1,5 +1,9 @@
 rule amletz_keywords
 {
+    meta:
+      author    = "INCD"
+      category  = "MALWARE"
+      
     strings:
         $a1_1	= "JDBC"
         $a1_2	= "eval"
